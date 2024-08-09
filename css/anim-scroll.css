@@ -1,0 +1,2006 @@
+@charset "utf-8";
+
+.baslik {
+		
+	width:100%;
+	
+	position:relative;
+	padding-top:1vw;
+	padding-bottom:1vw;
+	
+	text-align:center;	
+	
+	
+	
+	animation: baslik-anim ease 1s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 0vw;
+	animation-range-end: 20vw;
+	
+	-webkit-transform: translate(0vw, -5vw);
+	opacity:0;
+}
+
+@keyframes baslik-anim {
+	
+	from { 	-webkit-transform: translate(0vw, -5vw);  }
+	
+	to { -webkit-transform: translate(0vw, 0vw); opacity:1 }
+
+	
+}
+
+.about-foto {
+		
+	position:relative;
+	width:30%;
+	float:left;
+	margin-left:25vw;
+	margin-top:10.5vw;	
+	
+	z-index:2;
+	
+	animation: about-foto-anim ease 1s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 0vw;
+	animation-range-end: 15vw;
+	
+}
+
+@keyframes about-foto-anim {
+	
+	from {  margin-left:-25vw;  }
+	
+	to { margin-left:15vw; }
+	
+}
+
+.about-sag {
+	
+	position:relative;
+	width:20%;
+	float:left;
+	margin-left:-17vw;
+	margin-top:15vw;
+	
+	z-index:1;	
+	opacity: 0;
+		
+	
+	animation: about-sag-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 15vw;
+	animation-range-end: 30vw;
+	
+}
+
+@keyframes about-sag-anim {
+	
+	from {  margin-left:-17vw;  }
+	
+	to {  margin-left:0vw;  opacity: 1; }
+	
+}
+
+.raptiye {
+	
+	position:absolute;
+	z-index:3;
+	margin-top:-2.3vw;
+	opacity: 0;
+	
+	font-size:1.8vw;
+	color: var(--renk1);
+	
+	animation: raptiye-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 20vw;
+	animation-range-end: 30vw;
+	
+}
+
+
+
+
+@keyframes raptiye-anim {
+	
+	from {  margin-top:-2.3vw;  }
+	
+	to {  margin-top:-1.2vw;  opacity: 1; }
+	
+}
+
+
+
+#program1 {
+	
+	
+	
+	animation: program1-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: var(--program-start);
+	animation-range-end: var(--program-end);
+	
+	-webkit-transform: translate(-80vw, 0vw);
+	
+}
+
+@keyframes program1-anim {
+	
+	from { 	-webkit-transform: translate(-80vw, 0vw); }
+	
+	to { 	-webkit-transform: translate(0vw, 0vw); }
+
+	
+}
+
+
+
+
+#program2 {
+	
+	-webkit-transform: translate(-80vw, 0vw);
+		
+	animation: program2-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: var(--program-start);
+	animation-range-end: var(--program-end);
+	
+}
+
+@keyframes program2-anim {
+	
+	from { 	-webkit-transform: translate(-80vw, 0vw); }
+	
+	to { 	-webkit-transform: translate(0vw, 0vw); }	
+
+
+	
+}
+
+#program3 {
+	
+	-webkit-transform: translate(-80vw, 0vw);
+	
+	animation: program3-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: var(--program-start);
+	animation-range-end: var(--program-end);
+	
+}
+
+@keyframes program3-anim {
+	
+	from { 	-webkit-transform: translate(-80vw, 0vw); }
+	
+	to { 	-webkit-transform: translate(0vw, 0vw); }	
+
+
+	
+}
+
+#program4 {
+	
+	-webkit-transform: translate(-80vw, 0vw);
+	
+	animation: program4-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: var(--program-start);
+	animation-range-end: var(--program-end);
+	
+}
+
+@keyframes program4-anim {
+	
+	from { 	-webkit-transform: translate(-80vw, 0vw); }
+	
+	to { 	-webkit-transform: translate(0vw, 0vw); }	
+
+
+	
+}
+
+#program5 {
+	
+	-webkit-transform: translate(-80vw, 0vw);
+	
+	animation: program5-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: var(--program-start);
+	animation-range-end: var(--program-end);
+	
+}
+
+@keyframes program5-anim {
+	
+	from { 	-webkit-transform: translate(-80vw, 0vw); }
+	
+	to { 	-webkit-transform: translate(0vw, 0vw); }	
+
+
+	
+}
+
+#program6 {
+		
+	-webkit-transform: translate(-80vw, 0vw);
+	
+	animation: program6-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: var(--program-start);
+	animation-range-end: var(--program-end);
+	
+}
+
+@keyframes program6-anim {
+	
+	from { 	-webkit-transform: translate(-80vw, 0vw);  }
+	
+	to { 	-webkit-transform: translate(0vw, 0vw);  }	
+
+
+	
+}
+
+#program7 {	
+
+	-webkit-transform: translate(-80vw, 0vw);
+	
+	animation: program7-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: var(--program-start);
+	animation-range-end: var(--program-end);
+	
+}
+
+@keyframes program7-anim {
+	
+	from { 	-webkit-transform: translate(-80vw, 0vw); }
+	
+	to { 	-webkit-transform: translate(0vw, 0vw); }	
+
+
+
+	
+}
+
+#program8 {
+	
+	-webkit-transform: translate(-80vw, 0vw);
+	
+	animation: program8-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: var(--program-start);
+	animation-range-end: var(--program-end);
+	
+}
+
+@keyframes program8-anim {
+	
+	from { 	-webkit-transform: translate(-80vw, 0vw); }
+	
+	to { 	-webkit-transform: translate(0vw, 0vw); }	
+
+	
+}
+
+
+#is-bar {
+		
+	position:absolute;
+	
+	margin-left:0.3vw;
+	margin-top:0.4vw;
+	width:0vw;
+	opacity:0;
+	padding:0.2vw;	
+	
+	border: 0.3vw white;
+	border-top-style: solid;
+	
+	animation: bar-anim ease forwards;
+	animation-timeline:	view();
+	animation-range-start: 5vw;
+	animation-range-end: 28vw;
+	
+}
+
+@keyframes bar-anim {
+	
+	0% {width:0vw; opacity:0;}
+	
+	1% {opacity:1;}
+	
+	100% {width:48vw; opacity:1;}
+	
+	}
+
+
+#is-tarih-1 {
+		
+	position:relative;
+	
+	margin-top:0px;
+	margin-left:0vw;	
+	
+	font-weight: bold;
+	background: var(--bg3);
+	
+	color:white;
+	
+  	overflow: hidden;
+	border-width: 4px;
+    border-style: solid;
+	border-color: var(--renk2);	
+	
+	width:1.8vw;
+	height:0.9vw;
+	font-size: 0.9vw;
+	padding-left:0.2vw;	
+	padding-right:0.2vw;
+	padding-top:0.6vw;
+	padding-bottom:0.7vw;
+	border-radius: 50%;
+	
+	opacity:0;
+	scale:0;
+		
+	
+	animation: tarih1-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 3vw;
+	animation-range-end: 9vw;
+}
+
+@keyframes tarih1-anim {
+	
+	from { 	-webkit-transform: rotate(-90deg); }
+	
+	to { -webkit-transform: rotate(0deg); opacity:1; scale:1; }	
+
+	
+}
+
+#is-tarih-2 {
+	
+	position:relative;
+	
+	margin-top:0px;
+	margin-left:45vw;	
+	
+	font-weight: bold;
+	background: var(--bg3);
+	
+	color:white;
+	
+  	overflow: hidden;
+	border-width: 4px;
+    border-style: solid;
+	border-color: var(--renk2);	
+	
+	width:1.8vw;
+	height:0.9vw;
+	font-size: 0.9vw;
+	padding-left:0.2vw;	
+	padding-right:0.2vw;
+	padding-top:0.6vw;
+	padding-bottom:0.7vw;
+	border-radius: 50%;
+	
+	opacity:0;
+	scale:0;
+	scale:0;
+		
+	
+	animation: tarih2-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 25vw;
+	animation-range-end: 31vw;
+}
+
+@keyframes tarih2-anim {
+	
+	from { 	-webkit-transform: rotate(90deg); opacity:0; scale:0; }
+	
+	to { -webkit-transform: rotate(0deg); opacity:1; scale:1; }	
+
+	
+}
+
+
+
+#is-tarih-3 {
+	
+	position:absolute;
+
+	margin-top:0px;
+	margin-left:11vw;	
+	
+	
+	
+	font-weight: bold;
+	background: var(--renk2);	
+	
+	width:1.5vw;
+	height:0.9vw;
+	font-size: 0.7vw;
+	padding-left:0.3vw;	
+	padding-right:0.3vw;
+	padding-top:0.6vw;
+	padding-bottom:0.5vw;
+	border-radius: 50%;	
+	
+	opacity:0;
+
+	animation: tarih3-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 10vw;
+	animation-range-end: 16vw;
+}
+
+@keyframes tarih3-anim {
+	
+	from { 	 opacity:0; scale:0; }
+	
+	to {  opacity:1; scale:1; }	
+
+	
+}
+
+
+
+
+
+#is-tarih-4 {
+	
+	position:absolute;
+
+	margin-top:0px;
+	margin-left:23.5vw;	
+	
+	font-weight: bold;
+	background: var(--renk2);	
+	
+	width:1.5vw;
+	height:0.9vw;
+	font-size: 0.7vw;
+	padding-left:0.3vw;	
+	padding-right:0.3vw;
+	padding-top:0.6vw;
+	padding-bottom:0.5vw;
+	border-radius: 50%;
+
+	opacity:0;
+
+	animation: tarih4-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 16vw;
+	animation-range-end: 22vw;
+}
+
+@keyframes tarih4-anim {
+	
+	from { 	 opacity:0; scale:0; }
+	
+	to {  opacity:1; scale:1; }	
+
+	
+}
+
+
+#is-tarih-5 {
+	
+	position:absolute;
+
+	margin-top:0px;
+	margin-left:35vw;	
+	
+	font-weight: bold;
+	background: var(--renk2);	
+	
+	width:1.5vw;
+	height:0.9vw;
+	font-size: 0.7vw;
+	padding-left:0.3vw;	
+	padding-right:0.3vw;
+	padding-top:0.6vw;
+	padding-bottom:0.5vw;
+	border-radius: 50%;
+
+	opacity:0;
+
+	animation: tarih5-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 21.5vw;
+	animation-range-end: 26.5vw;
+}
+
+@keyframes tarih5-anim {
+	
+	from { 	 opacity:0; scale:0; }
+	
+	to {  opacity:1; scale:1; }	
+
+	
+}
+
+
+#logo-li  {
+	
+	width:2.5vw;
+	
+	opacity:0;
+	-webkit-transform: translate(0vw, var(--kategori-yukari));
+	
+	animation: logo-li-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 1vw ;
+	animation-range-end: 2vw ;
+	
+	
+}
+
+@keyframes logo-li-anim {
+	
+	from { -webkit-transform: translate(0vw, var(--kategori-yukari)); opacity:0;  }
+	
+	to { -webkit-transform: translate(0vw, 0vw); opacity:1;  }
+
+	
+}
+
+
+
+#kartvizit-li  {
+	
+	width:4.2vw;	
+	
+	opacity:0;
+	-webkit-transform: translate(0vw, var(--kategori-yukari));
+	
+	animation: kartvizit-li-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 2vw ;
+	animation-range-end: 3vw ;
+	
+	
+}
+
+@keyframes kartvizit-li-anim {
+	
+	from { -webkit-transform: translate(0vw, var(--kategori-yukari)); opacity:0;  }
+	
+	to { -webkit-transform: translate(0vw, 0vw); opacity:1;  }
+
+	
+}
+
+#afis-li  {
+	
+	width:2.0vw;
+	
+	opacity:0;
+	-webkit-transform: translate(0vw, var(--kategori-yukari));
+	
+	animation: afis-li-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 3vw ;
+	animation-range-end: 4vw ;
+	
+	
+}
+
+@keyframes afis-li-anim {
+	
+	from { -webkit-transform: translate(0vw, var(--kategori-yukari)); opacity:0;  }
+	
+	to { -webkit-transform: translate(0vw, 0vw); opacity:1;  }
+
+	
+}
+
+#brosur-li  {
+	
+	width:3.3vw;	
+		
+	opacity:0;
+	-webkit-transform: translate(0vw, var(--kategori-yukari));
+	
+	animation: brosur-li-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 4vw ;
+	animation-range-end: 5vw ;
+	
+	
+}
+
+@keyframes brosur-li-anim {
+	
+	from { -webkit-transform: translate(0vw, var(--kategori-yukari)); opacity:0;  }
+	
+	to { -webkit-transform: translate(0vw, 0vw); opacity:1;  }
+
+	
+}
+
+
+#banner-li  {
+	
+	width:3.5vw;
+	
+	opacity:0;
+	-webkit-transform: translate(0vw, var(--kategori-yukari));
+	
+	animation: banner-li-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 5vw ;
+	animation-range-end: 6vw ;
+	
+	
+}
+
+@keyframes banner-li-anim {
+	
+	from { -webkit-transform: translate(0vw, var(--kategori-yukari)); opacity:0;  }
+	
+	to { -webkit-transform: translate(0vw, 0vw); opacity:1;  }
+
+	
+}
+
+#illustrasyon-li  {
+	
+	width:5.5vw;	
+	
+	opacity:0;
+	-webkit-transform: translate(0vw, var(--kategori-yukari));
+	
+	animation: illustrasyon-li-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 6vw ;
+	animation-range-end: 7vw ;
+	
+	
+}
+
+@keyframes illustrasyon-li-anim {
+	
+	from { -webkit-transform: translate(0vw, var(--kategori-yukari)); opacity:0;  }
+	
+	to { -webkit-transform: translate(0vw, 0vw); opacity:1;  }
+
+	
+}
+
+#tipografi-li  {
+	
+	width:4.5vw;
+		
+	opacity:0;
+	-webkit-transform: translate(0vw, var(--kategori-yukari));
+	
+	animation: tipografi-li-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 7vw ;
+	animation-range-end: 8vw ;
+	
+	
+}
+
+@keyframes tipografi-li-anim {
+	
+	from { -webkit-transform: translate(0vw, var(--kategori-yukari)); opacity:0;  }
+	
+	to { -webkit-transform: translate(0vw, 0vw); opacity:1;  }
+
+	
+}	
+
+#sosyal-li  {
+	
+	width:6.2vw;		
+	
+	opacity:0;
+	-webkit-transform: translate(0vw, var(--kategori-yukari));
+	
+	animation: sosyal-li-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 8vw ;
+	animation-range-end: 9vw ;
+	
+	
+}
+
+@keyframes sosyal-li-anim {
+	
+	from { -webkit-transform: translate(0vw, var(--kategori-yukari)); opacity:0;  }
+	
+	to { -webkit-transform: translate(0vw, 0vw); opacity:1;  }
+
+	
+}
+
+
+#animasyon-li  {
+	
+	width:5vw;	
+	
+	opacity:0;
+	-webkit-transform: translate(0vw, var(--kategori-yukari));
+	
+	animation: animasyon-li-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 9vw ;
+	animation-range-end: 10vw ;
+	
+	
+}
+
+@keyframes animasyon-li-anim {
+	
+	from { -webkit-transform: translate(0vw, var(--kategori-yukari)); opacity:0;  }
+	
+	to { -webkit-transform: translate(0vw, 0vw); opacity:1;  }
+
+	
+}
+
+#ucd-li  {
+	
+	width:6vw;	
+	
+	opacity:0;
+	-webkit-transform: translate(0vw, var(--kategori-yukari));
+	
+	animation: ucd-li-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 11vw ;
+	animation-range-end: 12vw ;
+	
+	
+}
+
+@keyframes ucd-li-anim {
+	
+	from { -webkit-transform: translate(0vw, var(--kategori-yukari)); opacity:0;  }
+	
+	to { -webkit-transform: translate(0vw, 0vw); opacity:1;  }
+
+	
+}
+
+#web-li  {
+	
+	width:6vw;
+	
+	opacity:0;
+	-webkit-transform: translate(0vw, var(--kategori-yukari));
+	
+	animation: web-li-anim ease 0.5s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 12vw ;
+	animation-range-end: 13vw ;
+	
+	
+}
+
+@keyframes web-li-anim {
+	
+	from { -webkit-transform: translate(0vw, var(--kategori-yukari)); opacity:0;  }
+	
+	to { -webkit-transform: translate(0vw, 0vw); opacity:1;  }
+
+	
+}
+
+
+.dergi-anim-scroll {
+	
+
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;	
+	opacity:0;
+	
+	animation: dergi-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 20vw;
+}
+
+
+	
+.isgad-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;	
+	opacity:0;
+	
+	animation: isgad-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 20vw;
+	
+}
+
+
+	
+.ayakkabi1-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;	
+	opacity:0;
+	
+	animation: ayakkabi1-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+
+
+.ayakkabi2-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: ayakkabi2-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+
+
+.deagle-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: deagle-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+}
+
+
+.ayakkabi3-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: ayakkabi3-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+
+
+.ayakkabi4-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: ayakkabi4-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.ayakkabi5-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: ayakkabi5-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+
+
+.sakiz-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: sakiz-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+
+
+
+.anvil-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: anvil-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.kar-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: kar-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.sonsuz_top-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;	
+	opacity:0;
+	
+	animation: sonsuz_top-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.toplar-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: toplar-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.ev-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: ev-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+}
+	
+
+
+.karakter1-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;	
+	opacity:0;
+	
+	animation: karakter1-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+.karakter2-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: karakter2-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.karakter3-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: karakter3-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+
+
+
+.unreal-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;	
+	opacity:0;
+	
+	animation: unreal-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.camera-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: camera-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.kelebek_vid-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: kelebek_vid-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.kelebek-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;	
+	opacity:0;
+	
+	animation: kelebek-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+}
+	
+
+
+.ragdoll-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: ragdoll-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.wreck-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: wreck-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.donut-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: donut-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.dolap-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: dolap-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+}
+	
+
+
+.assassin-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: assassin-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+.run-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: run-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+.banner1-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: banner1-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.banner2-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: banner2-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+.banner3-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: banner3-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+.banner4-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: banner4-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+.banner5-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: banner5-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+.banner6-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: banner6-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+}
+
+.banner7-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: banner7-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+}
+	
+
+
+.banner8-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:30%;
+	opacity:0;
+	
+	animation: banner8-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+
+
+.banner9-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: banner9-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+.banner10-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:30%;
+	opacity:0;
+	
+	animation: banner10-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+
+.brosur1-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;	
+	opacity:0;
+	
+	animation: brosur1-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.brosur2-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: brosur2-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.brosur3-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: brosur3-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+
+
+.brosur4-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: brosur4-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.menu1-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: menu1-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.menu2-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: menu2-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+
+.bilet-anim-scroll {
+	
+	width: 60%;
+	margin-top:20px;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: bilet-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+}
+	
+
+
+.hikaye1-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: hikaye1-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.hikaye2-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: hikaye2-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -20vw;
+	animation-range-end: 20vw;
+	
+}
+	
+
+
+.hikaye3-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: hikaye3-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.hikaye4-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: hikaye4-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -20vw;
+	animation-range-end: 20vw;
+	
+}
+	
+
+
+.storyboard-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: storyboard-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+
+.kartvizit1-anim-scroll {
+	
+	width: 28%;
+	margin-top:20px;
+	margin-left:4%;	
+	margin-right:2%;		
+	opacity:0;
+	
+	animation: kartvizit1-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+}
+
+.kartvizit2-anim-scroll {
+	
+	width: 28%;
+	margin-top:20px;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: kartvizit2-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.kartvizit3-anim-scroll {
+	
+	width: 28%;
+	margin-top:20px;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: kartvizit3-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.kartvizit4-anim-scroll {
+	
+	width: 28%;
+	margin-top:20px;
+	margin-left:4%;	
+	margin-right:2%;	
+	opacity:0;
+	
+	animation: kartvizit4-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+	
+}
+	
+
+.kartvizit5-anim-scroll {
+	
+	width: 28%;
+	margin-top:20px;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: kartvizit5-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+	
+}
+	
+
+
+.logo1-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: logo1-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 20vw;
+	
+}
+
+.logo2-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: logo2-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 20vw;
+	
+}
+	
+
+.logo3-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: logo3-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 20vw;
+	
+}
+		
+
+.logo4-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: logo4-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+}
+	
+.logo5-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: logo5-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+}
+
+
+.logo6-anim-scroll {
+	
+	width: 28%;	
+	margin-left:2%;
+	margin-right:4%;
+	opacity:0;
+	
+	animation: logo6-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 20vw;
+	
+}
+	
+
+
+.sosyal1-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: sosyal1-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.sosyal2-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: sosyal2-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.sosyal3-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: sosyal3-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+
+.tipografi1-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;	
+	opacity:0;
+	
+	animation: tipografi1-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.tipografi2-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: tipografi2-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+.tipografi3-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: tipografi3-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+
+.tipografi4-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: tipografi4-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+.web1-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;	
+	opacity:0;
+	
+	animation: web1-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+}
+	
+
+.web2-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: web2-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.web3-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: web3-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+
+
+.web4-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;	
+	opacity:0;
+	
+	animation: web4-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+
+
+.iletisim-ust {
+	
+	position:absolute;
+	padding-top: 2%;
+	
+	animation: iletisim-ust-anim ease 1s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 0vw;
+	animation-range-end: 20vw;
+	
+	-webkit-transform: translate(0vw, -5vw);
+	opacity:0;
+	
+}
+
+@keyframes iletisim-ust-anim {
+	
+	from { 	-webkit-transform: translate(0vw, -5vw);  }
+	
+	to { -webkit-transform: translate(0vw, 0vw); opacity:1 }
+
+	
+}
+
+.iletisim-alt {
+	
+	color:white;
+
+	position:absolute;
+	padding-top: 5%;
+	font-size: 1vw;
+	font-weight: normal;
+	
+	animation: iletisim-alt-anim ease 1s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 5vw;
+	animation-range-end: 25vw;
+	
+	-webkit-transform: translate(0vw, 2vw);
+	opacity:0;
+	
+}
+
+@keyframes iletisim-alt-anim {
+	
+	from { 	-webkit-transform: translate(0vw, 2vw);  }
+	
+	to { -webkit-transform: translate(0vw, 0vw); opacity:1; }
+
+	
+}
+
+#iletisim-1 {
+
+	animation: iletisim-anim ease 1s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 0.5vw;
+	animation-range-end: 12vw;
+		
+	scale:0;
+	opacity:0;
+	
+}
+
+#iletisim-2 {
+
+	animation: iletisim-anim ease 1s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 0.5vw;
+	animation-range-end: 12vw;
+	
+	scale:0;
+	opacity:0;
+	
+}
+
+#iletisim-3 {
+
+	animation: iletisim-anim ease 1s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 0.5vw;
+	animation-range-end: 12vw;
+	
+	scale:0;
+	opacity:0;
+	
+}
+
+
+#iletisim-4 {
+
+	animation: iletisim-anim ease 1s forwards;	
+	animation-timeline:	view();
+	animation-range-start: 0.5vw;
+	animation-range-end: 12vw;
+	
+	scale:0;
+	opacity:0;
+	
+}
+
+
+@keyframes iletisim-anim {
+	
+	0% { scale:0; opacity:0; }
+	
+	
+	100% { scale:1; opacity:1;} 
+
+	
+}
