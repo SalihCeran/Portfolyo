@@ -1,0 +1,246 @@
+@charset "utf-8";
+
+a {	
+	color: white;
+	text-decoration:none;
+	font-weight:bold;	
+}
+
+a:hover {
+	color: #003399;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#onload {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #3872B9;
+	z-index: 21;
+	opacity: 1;
+}
+
+#paragraf-table {
+	width: 60%;
+}
+
+
+
+#go-to-index {
+	user-select: none;
+	user-drag: none;
+	position: fixed;
+	left: 50px;
+	top: 50px;
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border:2px solid white;
+	background-color: #3872B9;
+		
+}
+
+#go-to-index a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+.sehir-isim-baslik {
+	font-size: 55px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #3872B9;
+}
+
+.sehir-baslik2 {
+	font-size: 45px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #3872B9;
+}
+
+.sehir-ot-baslik{
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #558ACC;
+	height: 60px;
+}
+
+.sehir-ot-baslik2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #6998D1;
+	height: 60px;
+}
+
+.sehir-kategori-baslik {
+	font-weight: bold;
+	color: #FFF;
+	font-size: 25px;
+	height: 70px;
+	background-color: #3F7BC5;
+}
+
+#imgholder  {
+	width: 50px;
+	margin-top: 10px;
+}
+
+#imgholder td  {
+	background-color: white;
+}
+
+#imgholder img {
+	max-width: 500px;
+	height: auto;
+}
+
+#ot-table img {
+	width: auto;
+	height: 150px;
+	border: 2px solid white;
+}
+
+#ot-paragraf {
+	padding-left: 15px;
+	padding-right: 15px;	
+}
+
+.sehir-icerik {
+	color: #FFF;
+	background-color: #558ACC;
+	height: 30px;
+}
+
+.sehir-icerik2 {
+	color: #FFF;
+	background-color: #6998D1;
+	height: 30px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 700px){
+
+#paragraf-table {
+	width: 95%;
+}
+
+#go-to-index {
+	position: fixed;
+	top: 10px;
+	left: 10px
+}
+
+#imgholder img {
+	max-width: 250px;
+	height: auto;
+}
+
+}
+
+
+@media screen 
+and (-webkit-min-device-pixel-ratio: 1.1)
+and (-webkit-max-device-pixel-ratio: 1.5)
+and (orientation: portrait) {
+
+#go-to-index {
+	left: 10px;
+	top: 10px;
+	position:fixed;
+	text-align:center;
+	line-height:25px;
+	width: 130px;
+	height: 35px;
+	border: 2px solid white;
+}
+	
+#go-to-index a {
+	color: white;
+	font-size: 10px;
+
+}
+
+}
+
+
+
+@media screen 
+and (-webkit-min-device-pixel-ratio: 1.1)
+and (-webkit-max-device-pixel-ratio: 1.5)
+and (orientation: landscape) {
+
+#go-to-index {
+	left: 10px;
+	top: 10px;
+	position:fixed;
+	text-align:center;
+	line-height:25px;
+	width: 130px;
+	height: 35px;
+	border: 2px solid white;
+}
+	
+#go-to-index a {
+	color: white;
+	font-size: 10px;
+}
+
+}
+
+
+@media screen 
+and (-webkit-min-device-pixel-ratio: 2.9)
+and (-webkit-max-device-pixel-ratio: 3.1)
+and (orientation: portrait) {
+
+#go-to-index {
+	left: 15px;
+	top: 15px;
+	position:fixed;
+	text-align:center;
+	line-height:30px;
+	width: 130px;
+	height: 30px;
+	border: 2px solid white;
+}
+	
+#go-to-index a {
+	color: white;
+	font-size: 11px;
+
+}
+
+}
+
+
+@media screen 
+and (-webkit-min-device-pixel-ratio: 2.9)
+and (-webkit-max-device-pixel-ratio: 3.1)
+and (orientation: landscape) {
+
+#go-to-index {
+	left: 15px;
+	top: 15px;
+	position:fixed;
+	text-align:center;
+	line-height:30px;
+	width: 130px;
+	height: 30px;
+	border: 2px solid white;
+}
+	
+#go-to-index a {
+	color: white;
+	font-size: 11px;
+
+}
+
+}

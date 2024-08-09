@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+	.lang-gizli {
+		opacity: 0;	
+		display: none;
+	}
+
+.lang-gorunur {
+	opacity: 1;	
+	display: block;
+}
+
+
+.kaybol {
+	-webkit-animation-name:kaybol-anim;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes kaybol-anim {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+		display: none;
+		visibility: hidden;
+	}
+}
+
+.gorun {
+	-webkit-animation-name:gorun-anim;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes gorun-anim {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+		display: block;
+		visibility: visible;
+	}
+}
+
+
+
+
+#daire-1 {
+	animation: daire-1-anim 15s ease-in-out infinite;
+}
+
+@keyframes daire-1-anim {
+
+	15%{
+		
+		transform:translate(0px,0px);
+	}
+	
+	17%{
+		
+		transform:translate(0px,-220px);
+	}
+	
+	20%{
+		transform:translate(1540px,-220px);
+	}
+	
+	22%{
+		transform:translate(1540px,0px);
+	}
+	
+	100%{
+		transform:translate(1540px,0px);
+	}
+	
+}
+
+
+
+#daire-2 {
+	animation: daire-2-anim 15s ease-in-out infinite;
+}
+
+@keyframes daire-2-anim {
+
+	30%{
+		
+		transform:translate(0px,0px);
+	}
+	
+	32%{
+		
+		transform:translate(0px,-220px);
+	}
+	
+	35%{
+		transform:translate(1540px,-220px);
+	}
+	
+	37%{
+		transform:translate(1540px,0px);
+	}
+	
+	100%{
+		transform:translate(1540px,0px);
+	}
+	
+}
+
+
+#daire-3 {
+	animation: daire-3-anim 15s ease-in-out infinite;
+}
+
+@keyframes daire-3-anim {
+
+	45%{
+		
+		transform:translate(0px,0px);
+	}
+	
+	47%{
+		
+		transform:translate(0px,-220px);
+	}
+	
+	50%{
+		transform:translate(1540px,-220px);
+	}
+	
+	52%{
+		transform:translate(1540px,0px);
+	}
+	
+	100%{
+		transform:translate(1540px,0px);
+	}
+	
+}
+
+
+
+#daire-4 {
+	animation: daire-4-anim 15s ease-in-out infinite;
+}
+
+@keyframes daire-4-anim {
+
+	60%{
+		
+		transform:translate(0px,0px);
+	}
+	
+	62%{
+		
+		transform:translate(0px,-220px);
+	}
+	
+	65%{
+		transform:translate(1540px,-220px);
+	}
+	
+	67%{
+		transform:translate(1540px,0px);
+	}
+	
+	100%{
+		transform:translate(1540px,0px);
+	}
+	
+}
+
+
+#daire-5 {
+	animation: daire-5-anim 15s ease-in-out infinite;
+}
+
+@keyframes daire-5-anim {
+
+	75%{
+		
+		transform:translate(0px,0px);
+	}
+	
+	77%{
+		
+		transform:translate(0px,-220px);
+	}
+	
+	80%{
+		transform:translate(1540px,-220px);
+	}
+	
+	82%{
+		transform:translate(1540px,0px);
+	}
+	
+	100%{
+		transform:translate(1540px,0px);
+	}
+	
+}

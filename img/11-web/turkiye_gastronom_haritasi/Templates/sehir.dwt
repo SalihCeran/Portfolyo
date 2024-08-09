@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+<link rel="shortcut icon" href="../img/map.ico" />
+
+<style>
+
+.onload_anim {
+	-webkit-animation-name:onloadAnimation;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes onloadAnimation {
+	from {
+		opacity: 1;
+		z-index: 21;
+	}
+	to {
+		opacity: 0;
+		z-index: -1;
+	}
+}
+
+
+</style>
+
+<script>
+function fadeout(){
+
+	document.getElementById('onload').className ='onload_anim';
+   
+}
+</script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+
+<link href="../css/media-queries.css" rel="stylesheet" type="text/css" />
+
+
+<!-- TemplateBeginEditable name="head" -->
+
+<link href="../css/ege.css" rel="stylesheet" type="text/css" />
+
+
+
+<!-- TemplateEndEditable -->
+
+</head>
+
+<body onload="fadeout()" style="margin:0px;">
+
+	<div id="onload">
+      
+    </div>
+    
+	<div id="go-to-index">
+	<a href="../harita.html"> HARİTAYA DÖN
+	</a>	
+	</div>
+    
+
+<table  width="100%" border="0" cellpadding="0" cellspacing="0">
+  
+  <tr/>
+	  <td height="150" align="center" valign="middle" class="sehir-isim-baslik">
+	  <!-- TemplateBeginEditable name="Sehir-İsim" -->
+	  
+	  <!-- TemplateEndEditable -->
+      </td>
+</tr>
+
+
+  <tr valign="top" >
+        <td height="70" colspan="3" align="center" valign="middle" class="sehir-kategori-baslik" id="tarim-baslik" >
+        <p>TARIM ÜRÜNLERİ </p>
+        </td>
+  </tr>
+
+<!-- TemplateBeginEditable name="Tarım-İcerik" -->  
+<tr id="tarim-icerik">
+	<td colspan="3" align="center" valign="middle" class="sehir-icerik">      
+    </td>
+</tr>
+<tr id="tarim-icerik">
+	<td colspan="3" align="center" valign="middle" class="sehir-icerik2">      
+    </td>
+</tr>
+<!-- TemplateEndEditable -->
+  
+<tr valign="top" >
+	<td height="70" colspan="3" align="center" valign="middle" class="sehir-kategori-baslik" id="cografi-baslik">
+    <p>COĞRAFİ İŞARETLİ ÜRÜNLERİ</p>
+    </td>
+</tr>
+
+<!-- TemplateBeginEditable name="Cografi-İcerik" -->  
+<tr>
+	<td id="cografi-icerik" colspan="3" align="center" valign="middle" class="sehir-icerik">      
+    </td>
+</tr>
+<tr>
+	<td id="cografi-icerik" colspan="3" align="center" valign="middle" class="sehir-icerik2">      
+    </td>
+</tr>
+<!-- TemplateEndEditable -->
+
+<tr id="meshur-baslik" valign="top" >
+	<td height="70" colspan="3" align="center" valign="middle" class="sehir-kategori-baslik">
+    <p>MEŞHUR ÜRÜNLERİ </p>
+    </td>
+</tr>
+
+<!-- TemplateBeginEditable name="Meshur-İcerik" -->  
+<tr>
+	<td id="meshur-icerik" colspan="3" align="center" valign="middle" class="sehir-icerik">      
+    </td>
+</tr>
+<tr>
+	<td id="meshur-icerik" colspan="3" align="center" valign="middle" class="sehir-icerik2">      
+    </td>
+</tr>
+<!-- TemplateEndEditable -->
+
+<tr id="bugday-baslik" valign="top" >
+	<td height="70" colspan="3" align="center" valign="middle" class="sehir-kategori-baslik">
+    <p>YETİŞTİRİLEN BUĞDAY TÜRLERİ</p>
+    </td>
+</tr>
+ 
+ <!-- TemplateBeginEditable name="Bugday-Icerik" -->
+ 
+<tr>
+	<td id="bugday-icerik" colspan="3" align="center" valign="middle" class="sehir-icerik">   
+    </td>
+</tr>
+<tr>
+	<td id="bugday-icerik" colspan="3" align="center" valign="middle" class="sehir-icerik2">      
+    </td>
+</tr>
+
+
+<!-- TemplateEndEditable --> 
+
+<!-- TemplateBeginEditable name="Peynir-Icerik" -->
+	
+  
+<tr id="peynir-baslik" valign="top" >
+	<td height="70" colspan="3" align="center" valign="middle" class="sehir-kategori-baslik">
+    <p>ÜRETİLEN PEYNİR TÜRLERİ</p>
+	</td>
+</tr>
+   
+	<tr>
+	<td id="peynir-icerik" colspan="3" align="center" valign="middle" class="sehir-icerik"> <br />
+  
+    <video  controls>
+  <source src="../video/canakkale.mp4" type="video/mp4">
+  Tarayıcınız bu video türünü desteklemiyor.
+</video>
+        
+    </td>
+</tr>
+
+<tr>
+	<td id="peynir-icerik" colspan="3" align="center" valign="middle" class="sehir-icerik">Ezine Peyniri 
+        
+    </td>
+</tr>
+	
+	<!-- TemplateEndEditable -->    
+
+  
+</table>
+
+
+</body>
+</html>

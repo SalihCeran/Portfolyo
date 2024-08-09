@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+body {
+	margin:0;
+}
+
+#yukari {
+	position: fixed;
+	opacity: 0.5;
+	bottom: 25px;
+	right: 25px;
+}
+#yukari:hover {
+	opacity: 1;
+}
+
+section {
+	display: block;
+	color: #FFF;
+	background-color: #35B0FE;
+	margin: 0;
+}
+
+#bir {
+	height: 400px;
+	padding: 100px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+#iki {
+	height: 150px;
+	padding: 100px;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#iki-beyaz {
+	height: 800px;
+	padding: 100px;
+	font-weight: bold;
+	font-size: 50px;
+	background-color: #FFF;
+}
+
+#uc {
+	height: 50px;
+	padding: 100px;
+	font-weight: bold;
+	font-size: 50px;
+	background-color: #37afff;
+}
+
+#uc-beyaz {
+	height: 900px;
+	padding: 100px;
+	font-weight: bold;
+	font-size: 50px;
+	background-color: #FFF;
+}
+
+#dort {
+	height: 50px;
+	padding: 100px;
+	font-weight: bold;
+	font-size: 50px;
+	background-color: #37afff;
+}
+
+#dort-beyaz {
+	height: 300px;
+	padding: 100px;
+	font-weight: bold;
+	font-size: 50px;
+	background-color: #FFF;
+}
+
+#bes-buton:hover {
+	color: #FFF;
+	background-color: #333;
+}
+
+#bes {
+	height: 50px;
+	padding: 100px;
+	font-weight: bold;
+	font-size: 50px;
+	background-color: #37afff;
+}
+
+#bes-beyaz {
+	height: 300px;
+	padding: 100px;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #FFF;
+	color: #000;
+}
+#bes-beyaz a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#ust {
+	background-color: #000;
+	height: 60px;
+	position: fixed;
+	color: #FFF;
+	font: Verdana;
+	z-index: 10;
+}
+#ust tr td a {
+	font-weight: bold;
+	color: #FFF;
+	margin: 15px;
+	text-decoration: none;
+}
+#ust tr td a:hover {
+	color: #37afff;
+	text-decoration: none;
+}
+
+#alt {
+	background-color: #333333;
+	height: 110px;
+	color: #FFF;
+	font: Verdana;
+	padding-left: 60px;
+	font-size: 25px;
+	padding-right: 25px;
+}
+.baslik-1 {
+	color: #37afff;
+	font-size: 18px;
+	font-weight: bold;
+}
+.baslik-2 {
+	font-weight: bold;
+	color: #000;
+	font-size: 18px;
+}
+.baslik-3 {
+	font-weight: bold;
+	color: #FFF;
+	font-size: 18px;
+}
+.hakkimda-bg {
+	background-image: url(img/hakkımda/hakkimda-bg
+.png);
+	background-image: url(../img/hakk%C4%B1mda/hakkimda-bg.png);
+}
+.icerik-1 {
+	font-size: 16px;
+	color: #000;
+	font-weight: 300;
+}
+
+.baslik-11 {	color: #37afff;
+	font-size: 18px;
+	font-weight: bold;
+}
+.baslik-11 {	color: #37afff;
+	font-size: 18px;
+	font-weight: bold;
+}
+.baslik-21 {	font-weight: bold;
+	color: #000;
+	font-size: 18px;
+}
+.baslik-21 {	font-weight: bold;
+	color: #000;
+	font-size: 18px;
+}
+.icerik-11 {	font-size: 16px;
+	color: #000;
+	font-weight: 300;
+}
+.icerik-11 {	font-size: 16px;
+	color: #000;
+	font-weight: 300;
+}
